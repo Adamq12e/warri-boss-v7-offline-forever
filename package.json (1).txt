@@ -1,0 +1,19 @@
+{
+  "name": "warri-boss-global-server",
+  "version": "5.0.0",
+  "description": "Warri Boss Global - Invitation-only profit server for WhatsApp, Facebook, TikTok views",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "qrcode": "^1.5.3",
+    "sqlite3": "^5.1.6",
+    "uuid": "^9.0.0",
+    "node-cron": "^3.0.2"
+  }
+}
